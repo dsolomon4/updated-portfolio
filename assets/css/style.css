@@ -1,0 +1,112 @@
+body{
+    background: url("../images/what-the-hex-dark.png");
+}
+
+nav{
+   background: #9fa8da;
+   height: 85px;
+   line-height: 85px;
+   margin-bottom: 20px;
+}
+
+.mobile-nav{
+  height: 35px;
+  background: #7986cb;
+}
+
+nav .brand-logo { 
+    font-size: 3.2rem; 
+}
+
+.logo-name{
+    font-family: 'Tangerine', cursive;
+    font-size: 55px;
+}
+
+/* parralax */
+.main-image{ 
+    background-image: url("../images/magnolia-2218788_1920.jpg");
+    height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .index-header {
+    text-align: center;
+    background: white;
+    margin:  0px 30px 0px 30px;
+    padding: 15px 50px 0px 50px;
+    opacity: .7;
+    height: 100px
+  }
+
+  footer{
+    background: #9fa8da;
+    margin-top: 20px;
+  }
+
+  footer-2{
+    background: #7986cb;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+} 
+
+/* Tablet View
+@media screen 
+and (min-width: 641px)
+and (max-width: 768px) {
+.container {
+        max-width: 768px;
+    } 
+    .main-section{
+        max-width: 768px;
+    }
+    #logo {
+        width: 768px;
+    }
+    nav {
+        float: left;
+        padding-left: 150px; 
+    }
+
+} */
+
+
+/* Phone View */
+
+@media screen 
+and (max-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+    /* } 
+    .main-section{
+        max-width: 640px;
+    }
+    #logo {
+        width: 640px;
+    } */
+    nav {
+        float: left;
+        padding-left: 150px; 
+    }
+
+    /* p {
+        float: right;
+    }
+    .auth-image {
+        width: 250px;
+        height: 250px;
+        margin-left: 100px;
+    } */
+}
