@@ -1,31 +1,51 @@
-body{
-    background: url("../images/what-the-hex-dark.png");
+body {
+    background: url("../images/manhattan-336708_1920.jpg");
 }
 
-nav{
-   background: #9fa8da;
-   height: 85px;
-   line-height: 85px;
-   margin-bottom: 20px;
+nav {
+    background: #9fa8da;
+    height: 55px;
+    line-height: 55px;
+    margin-bottom: 20px;
 }
 
-.mobile-nav{
-  height: 35px;
-  background: #7986cb;
+.mobile-nav {
+    height: 35px;
+    background: #7986cb;
 }
 
-nav .brand-logo { 
-    font-size: 3.2rem; 
-}
-
-.logo-name{
+.logo-name {
     font-family: 'Tangerine', cursive;
     font-size: 55px;
 }
 
+
+footer {
+    padding: 20px 5px;
+    clear: both;
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #464b63;
+    /* height: 50px; */
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #7986cb;
+}
+
 /* parralax */
-.main-image{ 
-    background-image: url("../images/magnolia-2218788_1920.jpg");
+/* .main-image{ 
+    background-image: url("../images/manhattan-336708_1920.jpg");
     height: 600px; 
     background-attachment: fixed;
     background-position: center;
@@ -34,32 +54,29 @@ nav .brand-logo {
     padding: 8%;
     margin-top: 50px;
     margin-bottom: 50px;
-  }
+  } */
 
-  .index-header {
+.index-header {
     text-align: center;
-    background: white;
-    margin:  0px 30px 0px 30px;
+    font-size: 100;
+    /* background: #c29fda; */
+    margin: 0px 30px 0px 30px;
     padding: 15px 50px 0px 50px;
-    opacity: .7;
-    height: 100px
-  }
+    height: 100px;
+}
 
-  footer{
-    background: #9fa8da;
-    margin-top: 20px;
-  }
+#name {
+    font-size: 100px;
+    font-family: 'Cinzel', serif;
+}
 
-  footer-2{
-    background: #7986cb;
-  }
 
-  .container {
+.container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
-} 
+}
 
 /* Tablet View
 @media screen 
@@ -84,29 +101,51 @@ and (max-width: 768px) {
 
 /* Phone View */
 
-@media screen 
-and (max-width: 640px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
     .container {
-        max-width: 640px;
-    }
-    /* } 
-    .main-section{
-        max-width: 640px;
-    }
-    #logo {
-        width: 640px;
-    } */
-    nav {
-        float: left;
-        padding-left: 150px; 
+        padding: 0px;
+        width: 100%;
+        margin: 15px;
     }
 
-    /* p {
-        float: right;
+    .index-header {
+        text-align: center;
+        margin-top: 0px;
+        padding: 15px 20px 0px 20px;
+        height: 90px;
     }
-    .auth-image {
-        width: 250px;
-        height: 250px;
-        margin-left: 100px;
-    } */
+
+    #name {
+        font-size: 45px;
+        font-family: 'Cinzel', serif;
+        width: 100%;
+    }
+
+    #name-2 {
+        font-size: 20px;
+        font-family: 'Cinzel', serif;
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    footer {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .button-position {
+        padding-top: 10px;
+    }
+
+    #welcome {
+        margin-top: 25px;
+    }
+
+    #footer-text{
+        width: 100%;
+    }
+
 }
