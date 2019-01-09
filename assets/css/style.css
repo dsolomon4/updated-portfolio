@@ -2,16 +2,19 @@ body {
     background: url("../images/manhattan-336708_1920.jpg");
 }
 
-nav {
+/* nav {
     background: #9fa8da;
     height: 55px;
     line-height: 55px;
     margin-bottom: 20px;
-}
+} */
 
-.mobile-nav {
-    height: 35px;
-    background: #7986cb;
+#name-2 {
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+    width: 100%;
+    padding: 0px 15px;
+    color: white;
 }
 
 .logo-name {
@@ -29,9 +32,10 @@ footer {
     background: #666;
     border-top: 8px solid #464b63;
     /* height: 50px; */
-    bottom: 0;
-    position: absolute;
+    /* bottom: 0; */
+    /* position: absolute; */
     width: 100%;
+margin-top: 10px;
 
 }
 
@@ -43,31 +47,21 @@ footer a:hover {
     color: #7986cb;
 }
 
-/* parralax */
-/* .main-image{ 
-    background-image: url("../images/manhattan-336708_1920.jpg");
-    height: 600px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 8%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  } */
 
 .index-header {
     text-align: center;
     font-size: 100;
     /* background: #c29fda; */
     margin: 0px 30px 0px 30px;
-    padding: 15px 50px 0px 50px;
+    padding: 10px 50px 0px 50px;
     height: 100px;
 }
 
 #name {
     font-size: 100px;
     font-family: 'Cinzel', serif;
+    margin-bottom: -15px;
+    padding: 0px;
 }
 
 
@@ -77,6 +71,18 @@ footer a:hover {
     margin: 0 auto;
     clear: both;
 }
+
+.body-portfolio{
+    background: url("../images/flower-729512_1920.jpg");
+    background-size: 100%;
+}
+
+img{
+    height: 300px;
+    width: 400px;
+}
+
+
 
 /* Tablet View
 @media screen 
@@ -126,6 +132,7 @@ and (max-width: 768px) {
         font-family: 'Cinzel', serif;
         width: 100%;
         padding: 0px 15px;
+        color: black;
     }
 
     footer {
